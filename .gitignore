@@ -120,3 +120,17 @@ dist
 .env.development.local
 .env.test.local
 .env.production.local
+
+# ignore .VSCode internals
+.vscode/
+
+
+*/.expo/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
